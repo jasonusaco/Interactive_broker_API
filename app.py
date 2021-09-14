@@ -18,31 +18,31 @@ class TradingApp(EWrapper, EClient):
 
 def websocket_con():
     app.run()
-    event.wait()
-    if event.is_set():
-        app.close()
 
 
-event = threading.Event()
 app = TradingApp()
 app.connect("127.0.0.1", 7497, clientId=1)
 
 # starting a separate daemon thread to execute the websocket connection
-con_thread = threading.Thread(target=websocket_con)
+con_thread = threading.Thread(target=websocket_con, daemon=True)
 con_thread.start()
-# some latency added to ensure that the connection is established
-time.sleep(1)
+time.sleep(1)  # some latency added to ensure that the connection is established
 
 # creating object of the Contract class - will be used as a parameter for other function calls
 contract = Contract()
 contract.symbol = "AAPL"
 contract.secType = "STK"
 contract.currency = "USD"
-contract.exchange = "SMART"
+contract.exchange = "ISLAND"
 
-
-# EClient function to request contract details
-app.reqContractDetails(100, contract)
-# some latency added to ensure that the contract details request has been processed
-time.sleep(5)
-event.set()
+app.reqHistoricalData(reqId=1,
+                      contract=contract,
+                      endDateTime='',
+                      durationStr='3 M',
+                      barSizeSetting='5 mins',
+                      whatToShow='MIDPOINT',
+                      useRTH=1,
+                      formatDate=1,
+                      keepUpToDate=False,
+                      chartOptions=[])  # EClient function to request contract details
+time.sleep(5)  # some latency added to ensure that the contract details request has been processed
