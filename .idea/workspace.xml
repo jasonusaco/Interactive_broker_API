@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f49fc9-fffe-4884-872c-5d00c6bbe20d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical_indicators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical_indicators/bollinger_bands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_hist_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_hist_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +15,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/place_order.py">
+        <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technical_indicators/bollinger_bands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
               <folding>
-                <element signature="e#105#137#0" expanded="true" />
+                <element signature="e#122#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,41 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account_summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="e#128#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="2249" column="66" selection-start-line="2249" selection-start-column="52" selection-end-line="2249" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_hist_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="e#19#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/wrapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3791">
-              <caret line="232" column="78" selection-start-line="232" selection-start-column="78" selection-end-line="232" selection-end-column="78" />
+            <state relative-caret-position="-493">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -82,10 +58,11 @@
       <find>contractDetails</find>
       <find>format</find>
       <find>usTechStk</find>
-      <find>nextValidId</find>
       <find>accountSummary</find>
-      <find>TradeApp</find>
       <find>historicalData</find>
+      <find>nextValidId</find>
+      <find>TradeApp</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,8 +75,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/place_order.py" />
-        <option value="$PROJECT_DIR$/account_summary.py" />
         <option value="$PROJECT_DIR$/get_hist_data.py" />
+        <option value="$PROJECT_DIR$/account_summary.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/atr.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/rsi.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/adx.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/stochastic_oscillator.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/macd.py" />
+        <option value="$PROJECT_DIR$/technical_indicators/bollinger_bands.py" />
       </list>
     </option>
   </component>
@@ -124,6 +107,11 @@
             <path>
               <item name="Interactive_broker_API" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interactive_broker_API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interactive_broker_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interactive_broker_API" type="462c0819:PsiDirectoryNode" />
+              <item name="technical_indicators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,18 +176,18 @@
     <frame x="-6" y="-6" width="1453" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26021504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26021504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4535666" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4535666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.04037685" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4320323" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -255,40 +243,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/atr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/rsi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/adx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/stochastic_oscillator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/place_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        <state relative-caret-position="766">
+          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
           <folding>
             <element signature="e#105#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account_summary.py">
+    <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#128#160#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/macd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="105" column="60" lean-forward="true" selection-start-line="102" selection-end-line="105" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_hist_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="-1291">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#19#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/client.py">
+    <entry file="file://$PROJECT_DIR$/account_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="2249" column="66" selection-start-line="2249" selection-start-column="52" selection-end-line="2249" selection-end-column="66" />
+        <state relative-caret-position="-493">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical_indicators/bollinger_bands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+          <folding>
+            <element signature="e#122#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
