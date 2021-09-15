@@ -8,12 +8,12 @@ import time
 import logging
 
 
-class TradeApp(EWrapper, EClient):
+class TradingApp(EWrapper, EClient):
     def __init__(self):
         EClient.__init__(self, self)
         self.data = {}
 
-    def historica_data(self, req_id, bar):
+    def historicalData(self, req_id, bar):
         if req_id not in self.data:
             self.data[req_id] = [
                 {"Date": bar.date, "Open": bar.open, "High": bar.high,
@@ -37,7 +37,7 @@ def websocket_con():
     app.run()
 
 
-app = TradeApp()
+app = TradingApp()
 app.connect("127.0.0.1", 7497, clientId=1)
 
 # starting a separate daemon thread to execute the websocket connection
