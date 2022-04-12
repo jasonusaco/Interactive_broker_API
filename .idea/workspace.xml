@@ -2,49 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f49fc9-fffe-4884-872c-5d00c6bbe20d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/technical_indicators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical_indicators/bollinger_bands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/historical_data_api/ib_hist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_api/ib_execution_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_api/ib_open_orders_recap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_api/ib_order_bracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_api/ib_order_recap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/position_and_pnl/ib_pnl_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/position_and_pnl/ib_pnl_pos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/position_and_pnl/ib_position_refresh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical_indicators/tech_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical_indicators/tech_methods.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/venv/Lib/site-packages/ibapi-9.76.1-py3.7.egg!/ibapi/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/technical_indicators/bollinger_bands.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
-              <folding>
-                <element signature="e#122#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account_summary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,12 +59,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="176" />
     <option name="y" value="404" />
     <option name="width" value="2368" />
     <option name="height" value="1316" />
   </component>
+  <component name="ProjectId" id="27Q6lcq3r4zFFkEv4M9t78A68bB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -119,23 +96,27 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/position_and_pnl" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\PycharmProjects\Interactive_broker_API\position_and_pnl" />
+      <recent name="D:\PyCharm\PycharmProjects\Interactive_broker_API\order_api" />
+      <recent name="D:\PyCharm\PycharmProjects\Interactive_broker_API\historical_data_api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\PycharmProjects\Interactive_broker_API\last_traded_price" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ib_mt_ltp">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Interactive_broker_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +130,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -158,7 +140,132 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ib_contract_asynch_event" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Interactive_broker_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="E:\Anaconda\envs\Interactive_broker\Library\bin" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\Interactive_broker\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorial_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_files/ib_contract_asynch_event.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ib_contract_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Interactive_broker_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="E:\Anaconda\envs\Interactive_broker\Library\bin" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\Interactive_broker\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorial_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_files/ib_contract_intro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ib_mt_approach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Interactive_broker_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="E:\Anaconda\envs\Interactive_broker\Library\bin" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\Interactive_broker\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorial_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_files/ib_mt_approach.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ib_mt_ltp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Interactive_broker_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="E:\Anaconda\envs\Interactive_broker\Library\bin" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\Interactive_broker\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorial_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm\PycharmProjects\Interactive_broker_API\last_traded_price\ib_mt_ltp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ib_tick_stream" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Interactive_broker_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="E:\Anaconda\envs\Interactive_broker\Library\bin" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\Interactive_broker\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorial_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_files/ib_tick_stream.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ib_mt_ltp" />
+        <item itemvalue="Python.ib_mt_approach" />
+        <item itemvalue="Python.ib_tick_stream" />
+        <item itemvalue="Python.ib_contract_asynch_event" />
+        <item itemvalue="Python.ib_contract_intro" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,6 +276,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631346696895</updated>
+      <workItem from="1649240117764" duration="21518000" />
+      <workItem from="1649749532404" duration="5308000" />
     </task>
     <servers />
   </component>
@@ -217,6 +326,28 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_basic_app.coverage" NAME="ib_basic_app Coverage Results" MODIFIED="1649324516069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_tick_stream.coverage" NAME="ib_tick_stream Coverage Results" MODIFIED="1649344104534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_mt_approach.coverage" NAME="ib_mt_approach Coverage Results" MODIFIED="1649345678362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_contract_asynch_event.coverage" NAME="ib_contract_asynch_event Coverage Results" MODIFIED="1649343199484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_mt_ltp.coverage" NAME="ib_mt_ltp Coverage Results" MODIFIED="1649346134834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
+    <SUITE FILE_PATH="coverage/Interactive_broker_API$ib_contract_intro.coverage" NAME="ib_contract_intro Coverage Results" MODIFIED="1649343069760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial_files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__init__.py">

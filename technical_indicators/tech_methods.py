@@ -17,16 +17,16 @@ class TradeApp(EWrapper, EClient):
         EClient.__init__(self, self)
         self.data = {}
 
-    def historicalData(self, reqId, bar):
-        if reqId not in self.data:
-            self.data[reqId] = [
+    def historicalData(self, req_id, bar):
+        if req_id not in self.data:
+            self.data[req_id] = [
                 {"Date": bar.date, "Open": bar.open, "High": bar.high,
                  "Low": bar.low, "Close": bar.close, "Volume": bar.volume}]
         else:
-            self.data[reqId].append(
+            self.data[req_id].append(
                 {"Date": bar.date, "Open": bar.open, "High": bar.high,
                  "Low": bar.low, "Close": bar.close, "Volume": bar.volume})
-        print(f"reqID:{reqId}, date:{bar.date}, open:{bar.open}, "
+        print(f"req_id:{req_id}, date:{bar.date}, open:{bar.open}, "
               f"high:{bar.high}, low:{bar.low}, close:{bar.close}, "
               f"volume:{bar.volume}")
 
